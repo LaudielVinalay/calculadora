@@ -4,12 +4,14 @@
 }
 
 body{
-    background-color:orange;
+    background-color:rgb(231, 180, 180);
 }
 
 h1{
     text-align: center;
     margin-top: 10px;
+    color: white;
+    font-family: sans-serif
 
 }
 

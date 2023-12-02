@@ -1,12 +1,12 @@
 import React from "react";
 import '../stylesheets/Botones.css';
 
-function Botones(props){
+function BotonesClear(props){
     return(
-        <div className="Boton" onClick={() => props.Click(props.children)}>
+        <div className="Boton" onClick={props.Clear}>
             {props.children}
         </div>
     )
 }
 
-export default Botones;
+export default BotonesClear;
