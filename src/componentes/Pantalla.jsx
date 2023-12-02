@@ -1,9 +1,11 @@
 import React from "react";
 import '../stylesheets/Pantalla.css';
 
-function Pantalla(){
+function Pantalla({input}){
     return(
-        <div className="Pantalla"></div>
+        <div className="Pantalla">
+            {input}
+        </div>
     )
 }
 
