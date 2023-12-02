@@ -1,0 +1,9 @@
+.Boton{
+    border-style: solid;
+    background-color: white;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
