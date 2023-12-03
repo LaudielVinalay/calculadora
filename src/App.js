@@ -31,8 +31,8 @@ function App() {
     <div className="App">
       <h1>Calculadora Simple</h1>
       <div className="Calculadora">
-        <Pantalla input={input} />
         <div className="Contenedor">
+          <Pantalla input={input} /> 
           <div className="Fila">
             <BotonBorrar BorrarCaracter={substractInput}>&#9003; </BotonBorrar>
             <Botones Click={addInput}>sqrt</Botones>
